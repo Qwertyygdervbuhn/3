@@ -1,0 +1,186 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+#up {
+  background-color: #d3dcdb;
+  padding: 8px 0;
+}
+
+.scroll-content {
+  display: flex;
+  overflow-x: auto;
+}
+
+.textLine {
+  margin: 0 16px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+#navLeft {
+  display: flex;
+  align-items: center;
+}
+
+#divForBurgerMenu {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+#burgerMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 14px;
+  margin-right: 6px;
+}
+
+.lineInBurgerMenu {
+  width: 18px;
+  height: 2px;
+  background-color: #333;
+  margin: 1px 0;
+}
+
+#h3ForBurgerMenu {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+#logoInNav {
+  height: 32px;
+  margin-right: 24px;
+}
+
+#divForTegA a {
+  margin-right: 20px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 240px;
+}
+
+#navRight {
+  display: flex;
+  align-items: center;
+}
+
+#kiev, #login-pass {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#kiev p, #login-pass p {
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+section {
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+}
+
+.cozy-sets {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cozy-card {
+  width: 200px;
+  height: 120px;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.cozy-card p {
+  margin-top: 10px;
+}
+
+.combo-section {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.combo-left {
+  flex: 1;
+  background-color: #ddd;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.combo-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.combo-right-item {
+  background-color: #ddd;
+  height: 115px;
+  border-radius: 8px;
+}
+
+.combo-footer {
+  background-color: #ddd;
+  height: 100px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  text-align: center;
+}
+
+.icon-card {
+  flex: 1;
+}
+
+.icon-placeholder {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-block {
+  max-width: 800px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
